@@ -6,8 +6,17 @@ namespace main
     {
         static void Main(string[] args)
         {
-            Sklad = new Sklad("Maso", 100);
+            Sklad sklad = new Sklad();
+            Skladník skladník = new Skladník(sklad);
+            while (sklad != null)
+            {
+                Console.WriteLine(sklad.VyberZeSkladuSurovin1());
+                skladník.DoskladniMaso();
 
+
+
+
+            }
         }
     }
 }

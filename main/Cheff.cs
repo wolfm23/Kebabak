@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Kebab_house
 {
-    internal class Cheff
+    class Cheff
     {
+       // private 
     }
 }

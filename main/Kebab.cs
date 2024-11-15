@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace main
 {
-    internal class Kebab
+    class Kebab
     {
-       
+        //private surovina1
+        //public Recepi() 
     }
 }

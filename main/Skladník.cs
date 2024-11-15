@@ -8,9 +8,26 @@ namespace Kebab_house
 {
     class Skladník
     {
-        public NaskladniSklad()
+        private Sklad sklad;  // Odkaz na objekt Sklad
+
+        public Skladník(Sklad sklad)
         {
-            return Sklad = new Sklad("Maso", 100);
+            this.sklad = sklad;
+        }
+
+        public int DoskladniMaso()
+        {
+            if (sklad.KolikJeMasa() > 1)
+            {
+                return 0;
+            }
+            else
+            {
+                return sklad.DoskladniSe();
+            }
+
+
         }
     }
 }
+
